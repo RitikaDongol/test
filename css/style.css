@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:400,600,700,800&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+    color: #999;
+    font-size: 15px;
+   font-family: 'Overpass', sans-serif;
+ }
+.top{
+    background: #393939;
+    padding: 7px;
+    height: 35px;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.topleft {
+	float: left;
+    padding: 3px 0px;
+}
+.email{
+    display: inline-block;
+    margin-right: 20px;
+}
+.email a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.phone{
+    display: inline-block;
+    margin-right: 20px;
+}
+.phone a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.social-box{
+	float: right;
+}
+.social-box ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+.social-box a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+	color: orange;
+}
+header .navbar{
+	height: 100px;
+	background-color: #ffffff;
+	padding: 35px;
+}
+header .navbar-nav a{
+	color: #000;
+    padding: 15px 15px;
+}
+.nav-item{
+	padding: 19px;
+	font-size: 15px;
+    font-weight: 600;
+}
+
+.nav-item.active > a {
+    color: #ffffff;
+    box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
+    border-radius: 25px 0px 25px 0px;
+    background: #fd6802;
+}
+.nav-item a:hover {
+    color: #ffffff;
+    box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
+    border-radius: 25px 0px 25px 0px;
+    background: #fd6802;
+}
+.banner{
+    background: url(../img/bg1.jpg);
+    background-size: cover;
+    position: relative;
+}
+.banner-inner{
+    height: 650px;
+    background: rgba(0,0,0,0.8);
+}
+.banner h1{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-shadow: 0px 4px 3px
+    rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+    text-align: left;
+    padding-top: 210px; 
+}
+.banner h1 .text{
+    color: #fd6802;
+}
+.banner h2 {
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    text-shadow: 0px 4px 3px
+    rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+}
+.btn{
+    padding: 13px 40px;
+    font-size: 18px;
+    border: 2px solid #fd6802;
+    border-radius: 25px 0px 25px 0px;
+    color:#ffffff;
+    background-color:#fd6802;
+    margin: 2px;
+}
+.btn:hover{
+    color: #fff;
+    background-image: linear-gradient(to right, red , yellow);
+}
+.welcome{
+    padding: 100px 0px;
+    margin-bottom: -30px;
+}
+.welcome h6{
+    font-size: 19px;
+    font-weight: 600;
+}
+.welcome h2{
+    color: #000;
+    font-size: 28px;
+}
+.welcome .text {
+    padding-top: 10px;
+    font-size: 19px;
+    font-style: italic;
+    color: #999;
+}
+.welcome p {
+    margin-bottom: 20px;
+}
+.welcome .txt{
+    letter-spacing: 1px;
+}
+.welcome .img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+
+.who{
+    padding: 100px 0px;
+}
+.who h6{
+    font-size: 19px;
+    font-weight: 600;
+}
+.who h2{
+    color: #000;
+    font-size: 28px;
+}
+.who .text {
+    padding-top: 10px;
+    font-size: 19px;
+    font-style: italic;
+    color: #999;
+}
+.who p {
+    margin-bottom: 20px;
+}
+.who .txt{
+    letter-spacing: 1px;
+}
+.who .img{
+    width: 100%;
+    border-radius: 6px;
+}
+#box .box{
+    background:url(../img/box.jpg);
+    position: relative;
+    height: 410px;
+    background-size: cover;
+}
+.box .global-radius{
+    border-radius: 25px 0px 25px 0px;
+}
+.box .icon_wrap {
+    background-color: #fd6802;
+    width: 100px;
+    height: 100px;
+    display: block;
+    font-size: 44px;
+    color:#ffffff;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 130px;
+    padding-top: 25px;
+}
+
+.txt .count{
+    font-size: 34px;
+    color: #ffffff;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.txt h3{
+    font-size: 22px;
+    font-weight: 600;
+    color:#fcbf02;
+}
+#service{
+    background-color: #f2f3f5;
+    padding:100px 0px;
+}
+#service .section-title h3{
+    color: #1f1f1f;
+    font-size: 42px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.service .row{
+    padding-top: 30px;
+}
+.service .img-rounded{
+    border-radius: 6px;
+}
+.service .service-det{
+    background-color: #fff;
+    padding: 20px 15px;
+}
+.service-det h3{
+    color: #000;
+    font-weight: 600;
+    font-size: 23px;
+}
+.service-det p{
+    padding: 5px;
+}
+.service .sty{
+    margin-right: 20px;
+}
+.service .btn1{
+    padding-top: 9em;
+}
+
+
+
+
